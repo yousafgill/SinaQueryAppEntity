@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb1b26a9041e4d338370b4453daf2193" Name="Diagram1">
+        <EntityTypeShape EntityType="sinapraModel.ProgramProfile" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sinapraModel.Qualification" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sinapraModel.QueryCategory" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sinapraModel.QueryMain" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sinapraModel.QueryType" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sinapraModel.UserProfile" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_ProgramProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_Qualification" ManuallyRouted="false" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_QueryCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_QueryType" ManuallyRouted="false" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_UserProfile" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="sinapraModel.CourseProfile" Width="1.5" PointX="4.75" PointY="4.125" />
+        <EntityTypeShape EntityType="sinapraModel.sysdiagram" Width="1.5" PointX="2.0391286341655666" PointY="16.881723858826664" />
+        <AssociationConnector Association="sinapraModel.FK_CourseProfile_ProgramProfile" />
+        <AssociationConnector Association="sinapraModel.FK_QueryMain_CourseProfile" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
